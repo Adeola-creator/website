@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <header>
+        <h2> Let's get to know you </h2>
+        <p>Already have an account? <a href="Login.html" target="_blank" >Log In</a></p>
+    </header>
+    <main>
+    <form id="reg-form" action="mailto:meetprecious1403@gmail.com"  enctype="text/plain">
+            <label class="flabel" for="fname">First Name:</label><br>
+
+            <input class="inputs" type="text" name="fname" id="" minlength="3" maxlength="15" required/><br>
+
+            <label class="flabel" for="lname" minlength="3" maxlength="15" >Last Name:</label><br>
+
+            <input class="inputs" type="text" name="lname" id="" required/><br>
+
+            <label class="flabel" for="number" >Phone Number:</label><br>
+          
+            <input class="inputs" type="tel" name="number" id="" placeholder="08012345678" pattern="[0-9]{11}" required/><br>
+      
+            <label class="flabel" for="gender" required>Gender:</label><br>
+            <select class="inputs" name="gender" id="">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select><br>
+
+            <label class="flabel" for="country">Country:</label><br>
+  
+            <input class="inputs" type="text" name="country" id="" minlength="3" maxlength="15" required /><br>
+  
+            <label class="flabel" for="state">State/Province:</label><br>
+
+            <input class="inputs" type="text" name="state" id="" minlength="3" maxlength="15" required /><br>
+
+            <label class="flabel" for="email">Email:</label><br>
+
+            <input class="inputs" type="email" name="email" id="" required /><br>
+
+            <label class="flabel" for="password">Password:</label><br>
+
+            <input class="inputs" type="password" name="password" id="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" title="should have at least one upper case letter, one lower case letter, a number and a special character" required/><br>
+        
+            <label class="flabel" for="cpassword">Confirm Password:</label><br>
+
+            <input class="inputs" type="password" name="cpassword" id="" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$" title="should have at least one upper case letter, one lower case letter, a number and a special character"/><br>
+      <button class="submit-btn" type="submit">Submit</button>
+
+    </form>
+  </main>
+  <footer>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/adeolasamuel" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Adeola-creator" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+      <a href="https://www.facebook.com/adeola.samuel.16940" target="_blank"><i class="fa-brands fa-facebook" target="_blank"></i></a>
+    </div>
+    <p class="end">
+      <span><i class="fa-light fa-at"></i></span> Adeola 2022
+    </p>
+  </footer>
+  </body>
+</html>

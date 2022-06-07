@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+header h1{
+    color: #8d7f7f;
+}
+header i{
+    color: #B0B3B9;
+}
+header p{
+    font-size: 30px;
+    margin: 10px 0 0 30px;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+    font-weight: 500;   
+}
+header p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #C60021;
+}
+form{
+    width: 80%;
+    height: 80vh;
+    margin: 30px auto;
+    padding: 20px 0 20px 40px;
+    align-items: center;
+    justify-content: center;
+}
+#reg-form{
+    width: 100%;
+    height: fit-content;
+    margin-left: 100px;
+}
+.flabel{
+    font-size: 25px;
+    font-weight: 600;
+}
+.inputs{
+    width: 80%;
+    height: 50px;
+    margin: 20px 40px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow:3px 3px 1px 1px #B0B3B9;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.submit-btn{
+    color: #C60021;
+    background-color: #B0B3B9;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: transform .4s;
+    margin: 20px 40px;
+    cursor: pointer;
+    width: 80%;
+}
+.submit-btn:hover{
+    background-color: transparent;
+    border: 2px solid #C60021;
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #B0B3B9;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#F6F6F8;
+}
+footer p{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.social{
+    display: flex;
+    margin: 10px;
+}
+.social a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #8d7f7f;
+    color: #F6F6F8;
+    text-decoration: none;
+    margin: 20px 15px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+    padding: 10px;
+    color: #8d7f7f;
+}
